@@ -1,7 +1,4 @@
-import type { Navbar } from "./navbar"
-
-function App() {
-
+import { Navbar } from './navbar'
 export const Header = () => {
   return (
     <header className='flex justify-between'>

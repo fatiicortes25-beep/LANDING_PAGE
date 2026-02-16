@@ -1,18 +1,25 @@
-import { Header } from './components/header'
-
+import { 
+  Header, 
+  Hero, 
+  Features,
+  MoreInformation,
+  Testimonials,
+  Form,
+  Footer,
+} from './components'
 
 function App() {
 
   return (
-    <main className= 'border border-white w-[375px]m-auto'>
+    <main className='m-auto'>
       
-      <section className='bg-gray-500 p-6 h-[420px] relative'>
+      <section className='bg-Navy-850 p-6 h-[420px] relative md:h-[640px]'>
         <Header />
         
         <img
           src="/images/illustration-intro.png"
           alt="intro illustration"
-          className='relative z-10 mt-12'
+          className='relative z-10 mt-12 w-[320px] md:w-[450px] mx-auto'
         />
         
         <img
